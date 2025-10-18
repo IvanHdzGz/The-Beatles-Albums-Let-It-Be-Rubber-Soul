@@ -169,6 +169,7 @@ const albums = [
     ],
   },
 ];
+// Función que permite cambiar la canción al presionar el nombre de la canción
 function cambiarCancion(indexAlbum, indexCancion) {
   const vid1 = document.getElementById(`vid${indexAlbum + 1}`);
   const cancion = albums[indexAlbum].canciones[indexCancion];
